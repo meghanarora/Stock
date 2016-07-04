@@ -5,6 +5,10 @@
 "description": "This extension will pull the stock price for a company",
 "version": "1.0",
 
+"background": {
+  "scripts": ["stock.js"]
+  },
+
 "browser_action": {
 	"default_icon": "icon.png",
 	"default_popup": "stockpull.html"
